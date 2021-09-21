@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuVideo"
+        android:icon="@android:drawable/presence_video_away"
+        android:title="視訊"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menuMessage"
+        android:title="@string/menuMessage" />
+    <item
+        android:id="@+id/menuCall"
+        android:title="@string/menuCall" />
+</menu>
